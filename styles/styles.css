@@ -1,0 +1,31 @@
+/* main text color: #212121; */
+/* second text color: #757575; */
+/* main background color: #F5F5F5; */
+/* accent color: #2196F3; */
+
+body {
+  background-color: #f5f5f5;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+}
+
+/* logo */
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-item {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
