@@ -2,30 +2,50 @@
 /* second text color: #757575; */
 /* main background color: #F5F5F5; */
 /* accent color: #2196F3; */
+/* second accent color: #000000; */
+
+/* .visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+} */
+
+:root {
+    --main-text-color: #212121;
+    --second-text-color: #757575;
+    --main-background-color: #f5f5f5;
+    --accent-color: #2196f3;
+    --second-accent-color: #000000;
+}
 
 body {
-  background-color: #f5f5f5;
-  color: #212121;
-  font-family: Roboto, sans-serif;
+    background-color: #f5f5f5;
+    color: var(--main-text-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 /* logo */
 
 .logo {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
 }
 .logo-item {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--second-accent-color);
 }
