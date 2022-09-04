@@ -9,6 +9,7 @@
     --main-text-color: #212121;
     --second-text-color: #757575;
     --main-background-color: #f5f5f5;
+    --second-background-color: #2f303a;
     --accent-color: #2196f3;
     --second-accent-color: #000000;
     --second-logo-color: #ffffff;
@@ -16,10 +17,10 @@
 }
 
 body {
-    /* background-color: #f5f5f5; */
-    background-color: rgb(85, 236, 186);
+    background-color: #f5f5f5;
     color: var(--main-text-color);
     font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
 }
 
 .link {
@@ -75,6 +76,9 @@ ul {
 }
 
 /* hero */
+.hero {
+    background-color: var(--second-background-color);
+}
 
 .hero-title {
     font-weight: 900;
@@ -119,7 +123,6 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--main-text-color);
 }
 
 .adv-item {
@@ -137,7 +140,6 @@ ul {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-text-color);
 }
 
 /* team members */
@@ -148,7 +150,6 @@ ul {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-text-color);
 }
 
 .teammate-title {
@@ -157,7 +158,6 @@ ul {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-text-color);
 }
 
 .team-profession {
@@ -169,6 +169,10 @@ ul {
 }
 
 /* footer  */
+
+.footer {
+    background-color: var(--second-background-color);
+}
 
 .footer-logo {
     font-family: 'Raleway';
@@ -204,6 +208,7 @@ ul {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
     background-color: var(--portfolio-button-color);
+    cursor: pointer;
 }
 
 .portfolio-btn:hover,
