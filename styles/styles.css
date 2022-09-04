@@ -12,7 +12,7 @@
     --accent-color: #2196f3;
     --second-accent-color: #000000;
     --second-logo-color: #ffffff;
-    --button-color: #f5f4fa;
+    --portfolio-button-color: #f5f4fa;
 }
 
 body {
@@ -203,6 +203,7 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    background-color: var(--portfolio-button-color);
 }
 
 .portfolio-btn:hover,
